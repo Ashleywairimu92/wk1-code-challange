@@ -1,7 +1,10 @@
+const prompt = require("prompt-sync")(); 
 
-const basicSalary = parseFloat(76650);
+let basicSalary = prompt('Please enter the basicSalary:');
+basicSalary = parseInt(basicSalary); 
 
-const benefits = parseFloat(6);
+let benefits = prompt('please enter the benefits:');
+benefits = parseInt(benefits);
 
 if (isNaN(basicSalary) || isNaN(benefits)) {
     console.log(' Invalid input.Please enter a valid basic salary and benefits.');

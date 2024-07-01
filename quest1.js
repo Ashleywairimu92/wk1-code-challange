@@ -1,18 +1,15 @@
+const prompt = require("prompt-sync")(); 
 
-let score = 45;
-
-if (score > 79){
+let score = prompt('Please enter the score: ');
+score = parseInt(score); 
+if (score > 79) {
     console.log('A');
-}else if (score>60 && score < 79){
+} else if (score >= 60 && score <= 79) {
     console.log('B');
-}else if (score>49 && score< 59){
+} else if (score >= 50 && score <= 59) {
     console.log('C');
-}else if (score >40 && score <49){
+} else if (score >= 40 && score <= 49) {
     console.log('D');
-}else{
+} else {
     console.log('E');
-} 
-console.log(score);
-
-
-
+}
