@@ -1,10 +1,10 @@
 
-const basicSalary = parseFloat('Enter basic salary: ');
+const basicSalary = parseFloat(76650);
 
-const benefits = parseFloat('Enter benefits: ');
+const benefits = parseFloat(6);
 
 if (isNaN(basicSalary) || isNaN(benefits)) {
-    console.log('Invalid input. Please enter a valid basic salary and benefits.');
+    console.log(' Invalid input.Please enter a valid basic salary and benefits.');
 } else if (basicSalary <= 0 || benefits <= 0) {
     console.log('Invalid input. Basic salary and benefits must be greater than 0');
 } else {
@@ -32,80 +32,80 @@ if (isNaN(basicSalary) || isNaN(benefits)) {
     const nhifDeductions = 0;
 
     if (grossSalary <= 5999) {
-    nhifDeductions = 150;
+    nhifDeductions ===150;
     } 
 
     else if (grossSalary <= 7999) {
-    nhifDeductions = 300;
+    nhifDeductions === 300;
     } 
 
     else if (grossSalary <= 11999) {
-    nhifDeductions = 400;
+    nhifDeductions === 400;
     } 
 
     else if (grossSalary <= 14999) {
-    nhifDeductions = 500;
+    nhifDeductions ===500;
     } 
 
     else if (grossSalary <= 19999) {
-    nhifDeductions = 600;
+    nhifDeductions === 600;
     } 
 
     else if (grossSalary <= 24999) {
-    nhifDeductions = 750;
+    nhifDeductions === 750;
     }
 
 
     else if (grossSalary <= 29999) {
-    nhifDeductions = 850;
+    nhifDeductions === 850;
     }
 
 
     else if (grossSalary <= 34999) {
-    nhifDeductions = 900;
+    nhifDeductions === 900;
     }
 
 
     else if (grossSalary <= 39999) {
-    nhifDeductions = 950;
+    nhifDeductions ===950;
     }
 
     else if (grossSalary <= 44999) {
-    nhifDeductions = 1000;
+    nhifDeductions === 1000;
     }
 
     else if (grossSalary <= 49999) {
-    nhifDeductions = 1100;
+    nhifDeductions === 1100;
     }
 
 
     else if (grossSalary <= 59999) {
-    nhifDeductions = 1200;
+    nhifDeductions === 1200;
     }
 
 
     else if (grossSalary <= 69999) {
-    nhifDeductions = 1300;
+    nhifDeductions === 1300;
     }
 
 
     else if (grossSalary <= 79999) {
-    nhifDeductions = 1400;
+    nhifDeductions === 1400;
     }
 
 
     else if (grossSalary <= 89999) {
-    nhifDeductions = 1500;
+    nhifDeductions === 1500;
     }
  
 
     else if (grossSalary <= 99999) {
-    nhifDeductions = 1600;
+    nhifDeductions === 1600;
     }
 
 
     else {
-    nhifDeductions = 1700;
+    nhifDeductions === 1700;
     }
 
     console.log(`NHIF Deductions: ${nhifDeductions}`);
